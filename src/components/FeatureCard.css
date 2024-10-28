@@ -1,0 +1,58 @@
+/* FeatureCard.css */
+
+.feature-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    text-align: left;
+    width: 350px;
+    height: 300px;
+    margin: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+.icon-container {
+    background-color: hsl(257, 27%, 26%);
+    /* Dark violet */
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px;
+    position: absolute;
+    top: -35px;
+    left: 20px;
+}
+
+.icon-container img {
+    width: 30px;
+    height: 30px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(255, 11%, 22%);
+    /* Very Dark Blue */
+    margin-bottom: 10px;
+}
+
+.card-description {
+    font-size: 15px;
+    color: hsl(257, 7%, 63%);
+    /* Grayish Violet */
+    line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .icon-container {
+        position: absolute;
+        top: -35px;
+        left: 38%;
+    }
+}

@@ -1,0 +1,160 @@
+/* App.css */
+
+/* General Styling */
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Layout */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: hsl(0, 0%, 75%);
+}
+
+.app {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Shorten Section */
+.shorten-section {
+  
+  background-color: hsl(257, 27%, 26%); /* Dark Violet */
+  background-image: url('/images/bg-boost-desktop.svg'); /* Add your SVG path here */
+  background-repeat: no-repeat;
+  background-size: cover; /* Adjust background size */
+  background-position: center;
+  padding: 30px 10%;
+  margin: 20px 10%;
+  border-radius: 5px;
+}
+
+/* Shortened Links */
+.shortened-links {
+  padding: 20px 10%;
+}
+
+.shortened-links .link-item {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  color: black;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Statistics Section */
+.statistics {
+  padding: 50px 10%;
+  text-align: center;
+  color: hsl(255, 11%, 22%);
+  height: max-content;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  height: max-content;
+}
+
+hr.blue-line {
+  width: 80%;
+  position: relative;
+  bottom: -200px;
+  border: 5px solid #2bd0d0;
+  border-radius: 5px;
+}
+
+.statistics h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: hsl(255, 11%, 22%);
+  /* Very Dark Blue */
+  margin-bottom: 10px;
+}
+
+.statistics p {
+  font-size: 1.1rem;
+  color: hsl(257, 7%, 63%);
+  /* Grayish Violet */
+  line-height: 1.5;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.stats-cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.card {
+  background-color: hsl(257, 7%, 63%);
+  padding: 20px;
+  width: 30%;
+  border-radius: 10px;
+}
+
+.card h4 {
+  color: hsl(260, 8%, 14%);
+}
+
+/* Call to action */
+section.call-action {
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+  background-color: hsl(257, 27%, 26%); /* Dark Violet */
+  background-image: url('/images/bg-boost-desktop.svg'); /* Add your SVG path here */
+  background-repeat: no-repeat;
+  background-size: cover; /* Adjust background size */
+  background-position: center;
+}
+
+section.call-action h2 {
+  font-size: 2.5rem;
+}
+
+.call-content button {
+  background-color: hsl(180, 66%, 49%);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: none;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .features {
+    padding-top: 50px;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  hr.blue-line {
+    display: none;
+  }
+}

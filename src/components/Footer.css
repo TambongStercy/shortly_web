@@ -1,0 +1,89 @@
+/* Footer.css */
+
+/* Add this section for social media icons */
+.footer-social-media {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.footer-social-media a {
+    color: white;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.footer-social-media a:hover {
+    color: hsl(180, 66%, 49%);
+    /* Cyan color on hover */
+}
+
+/* Other footer styles */
+.footer {
+    background-color: hsl(260, 8%, 14%);
+    /* Very Dark Violet */
+    padding: 50px 10%;
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.footer-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+.footer-heading {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: hsl(257, 7%, 63%);
+    /* Grayish Violet */
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    color: hsl(180, 66%, 49%);
+    /* Cyan */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-column {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .footer-social-media {
+        justify-content: center;
+    }
+}
