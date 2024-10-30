@@ -2,7 +2,7 @@
 
 .feature-card {
     background-color: white;
-    padding: 20px;
+    padding: 70px 20px 20px;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
     text-align: left;
@@ -17,6 +17,7 @@
     background-color: hsl(257, 27%, 26%);
     /* Dark violet */
     border-radius: 50%;
+    padding: 40px;
     width: 70px;
     height: 70px;
     display: flex;
@@ -29,12 +30,12 @@
 }
 
 .icon-container img {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
 }
 
 .card-title {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     color: hsl(255, 11%, 22%);
     /* Very Dark Blue */

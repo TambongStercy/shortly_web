@@ -14,7 +14,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ icon, title, description, top
             <div className="icon-container">
                 <img src={icon} alt={`${title} icon`} />
             </div>
-            <h3 className="card-title">{title}</h3>
+            <h2 className="card-title">{title}</h2>
             <p className="card-description">{description}</p>
         </div>
     );
